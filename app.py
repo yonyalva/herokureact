@@ -24,7 +24,7 @@ def create_app(test_config=None):
 
     @app.route('/')
     def hi():
-        return render_template('castingagency/index.html')
+        return render_template('casting-agency/index.html')
         # return "Hi!, this is only being used as a backeend API"
 
     @app.route('/actors')
